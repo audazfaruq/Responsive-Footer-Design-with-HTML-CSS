@@ -103,10 +103,20 @@
     font-size: 17px;
     line-height: 29px;
     color: #fff;
+    /* Text Hover Effect */
+    /* 1st */
+    /* background-image: linear-gradient(#29C671, #29C671);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: right;
+    transition: background-size 500ms; */
 }
 
 .footer .content .info a:hover {
     color: #29C671;
+    /* 2nd */
+    /* background-size: 100% 100%;
+    background-position-x: left; */
 }
 
 .footer .content .about {
