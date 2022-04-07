@@ -148,8 +148,12 @@
     color: #29C671;
 }
 
-.footer .content .about img {
-    margin: 0px 10px 50px 0px;
+.footer .content .about .social {
+    padding: 5px 0px 30px 0px;
+}
+
+.footer .content .about .social img {
+    margin: 0px 10px 0px 0px;
     cursor: default;
     background: rgba(153, 252, 255, 0.699);
     border: 8px solid rgba(153, 252, 255, 0.11);
@@ -157,6 +161,35 @@
     height: 25px;
     width: 25px;
 }
+
+
+/* To add animation effect on social icons */
+
+
+/* .icon {
+    display: inline-block;
+    animation: float 5s ease-in-out infinite;
+}
+
+.tw {
+    animation-delay: 1s;
+}
+
+.yu {
+    animation-delay: 2s;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+} */
 
 .footer .content .about img:hover {
     background: #29C671;
