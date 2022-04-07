@@ -1,5 +1,15 @@
 /* For Learning Purpose Only */
 
+@font-face {
+    font-family: segoe_ui_regular;
+    src: url('FontsFree-Net-Segoe-UI.ttf');
+}
+
+@font-face {
+    font-family: segoe_ui_bold;
+    src: url('FontsFree-Net-Segoe-UI-Bold.ttf');
+}
+
 * {
     margin: 0;
     padding: 0;
